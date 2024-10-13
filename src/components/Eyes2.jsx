@@ -19,7 +19,7 @@ function Eyes2() {
 
   return (
     <div data-scroll data-scroll-section data-scroll-speed=".5" className='eyes w-full h-screen overflow-hidden'>
-      <div className='relative w-full h-full bg-cover bg-center rounded-3xl bg-[url("./images/back1.png")]'>
+      <div className='relative w-full h-full bg-cover bg-center rounded-3xl bg-[url("https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")]'>
           <div className='text-6xl py-[70vh] flex items-center justify-center'>
             <h1 className='font-["Founders Grotesk X-Condensed"] font-extrabold tracking-wider'>Let's Start This Wonderful Journey...😊🫰</h1>
           </div>
