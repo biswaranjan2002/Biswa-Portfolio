@@ -19,7 +19,7 @@ function Eyes2() {
 
   return (
     <div data-scroll data-scroll-section data-scroll-speed=".5" className='eyes w-full h-screen overflow-hidden'>
-      <div className='relative w-full h-full bg-cover bg-center bg-[url("./images/back1.jpg")]'>
+      <div className='relative w-full h-full bg-cover bg-center rounded-3xl bg-[url("./images/back1.png")]'>
           <div className='text-6xl py-[70vh] flex items-center justify-center'>
             <h1 className='font-["Founders Grotesk X-Condensed"] font-extrabold tracking-wider'>Let's Start This Wonderful Journey...😊🫰</h1>
           </div>
