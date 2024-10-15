@@ -9,6 +9,7 @@ import Cards from './components/Cards';
 import Eyes2 from './components/Eyes2';
 import Footer from './components/Footer';
 import LocomotiveScroll from 'locomotive-scroll';
+import Acheivements from './components/Acheivements';
 
 
 
@@ -19,14 +20,24 @@ function App() {
   return (
     <div className='w-full min-h-screen text-white bg-zinc-900'>
       <Navbar></Navbar>
-      <Landingpage />
-      <Marquee />
-      <About />
+      <section id="home">
+        <Landingpage />
+        <Marquee />
+      </section>
+      <section id="about">
+        <About />
+      </section>
       <Eyes />
-      <Featured />
-      <Cards />
+      <section id="works">
+        <Featured />
+      </section>
+      <section id="contact">
+        <Cards />
+      </section>
       <Eyes2 />
-      <Footer />
+      <section id="footer">
+        <Footer />
+      </section>
     </div>
   )
 }

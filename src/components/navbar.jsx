@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import {Link} from 'react-scroll';
 
 function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -28,10 +29,34 @@ function Navbar() {
           alt="Logo"
         />
       </div>
-      <div className="links flex gap-10 mt-1">
-        {["Services", "My Work", "About Me", "Insights", "Contact"].map((item, index) => (
-          <a key={index} className={`text-lg capitalize font-light ${index === 4 && "ml-16"}`}>{item}</a>
-        ))}
+      <div className="links">
+        <ul className='flex gap-10 mt-1'>
+          <li>
+            <Link to="home" smooth={true} duration={500}>
+              <a href='#'>Home</a>
+            </Link>
+          </li>
+          <li>
+            <Link to="about" smooth={true} duration={500}>
+              <a href='#'>About & Resume</a>
+            </Link>
+          </li>
+          <li>
+            <Link to="works" smooth={true} duration={500}>
+              <a href='#'>My Works</a>
+            </Link>
+          </li>
+          <li>
+            <Link to="contact" smooth={true} duration={500}>
+              <a href='#'>Contact</a>
+            </Link>
+          </li>
+          <li>
+            <Link to="footer" smooth={true} duration={500}>
+              <a href='#'>LinkedIn</a>
+            </Link>
+          </li>
+        </ul>
       </div>
     </div>
   );
