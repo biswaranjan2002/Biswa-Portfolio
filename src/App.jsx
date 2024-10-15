@@ -9,7 +9,6 @@ import Cards from './components/Cards';
 import Eyes2 from './components/Eyes2';
 import Footer from './components/Footer';
 import LocomotiveScroll from 'locomotive-scroll';
-import Acheivements from './components/Acheivements';
 
 
 
