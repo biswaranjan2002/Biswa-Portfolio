@@ -4,7 +4,7 @@ import React from "react";
 function About() {
 
   const handleClick = () => {
-    window.open('https://drive.google.com/file/d/1aBjGya4Ln7AZkvy7c1Pp7PJpDYQOUB0F/view?usp=drive_link', '_blank', 'noopener,noreferrer');
+    window.open('https://drive.google.com/file/d/15by6uSlHVdDLVCUMIjd39J237iimR_ZJ/view?usp=drive_link', '_blank', 'noopener,noreferrer');
   };
 
   return (
