@@ -3,7 +3,7 @@ import React from "react";
 
 function Marquee() { 
   return (
-    <div data-scroll data-scroll-section data-scroll-speed=".1" className="w-full py-28 rounded-tl-3xl rounded-tr-3xl bg-[url('./images/bg2.jpg')] bg-cover bg-center">
+    <div data-scroll data-scroll-section data-scroll-speed=".1" className="w-full py-28 rounded-tl-3xl rounded-tr-3xl bg-[url('./images/bg2.png')] bg-cover bg-center">
       <div className="text border-t-2 border-b-2 border-zinc-300 flex  overflow-hidden whitespace-nowrap">
         <motion.h1 initial={{x: "0"}} animate={{x:"-100%"}} transition={{repeat: Infinity,ease: 'linear', duration: 10}} className='pr-20 text-[18vw] leading-none font-["Founders Grotesk X-Condensed"] -mt-[2vw] font-bold uppercase '>
           I am a Developer

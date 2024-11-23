@@ -5,7 +5,7 @@ import { FaArrowUpLong } from "react-icons/fa6";
 function Landingpage() {
 
   return (
-    <div data-scroll data-scroll-section data-scroll-speed="-.3" className='w-full h-[95vh] bg-[url("./images/bg8.jpg")] bg-cover bg-center pt-1'>
+    <div data-scroll data-scroll-section data-scroll-speed="-.3" className='w-full h-[95vh] bg-[url("./images/bg8.png")] bg-cover bg-center pt-1'>
       <div className='flex'>
         <div className='textstructure mt-[19vw] px-20'>
           {["Hii🙌, This is", "developer", "biswaranjan sahoo"].map((item, index) =>{
@@ -32,18 +32,6 @@ function Landingpage() {
           />
         </div>
       </div> 
-      <div className='border-t-[1px] border-zinc-800 mt-20 flex justify-between items-center py-5 px-20'>
-        {["For Companies and Individuals", "From the first HTML file to Personel Portfolio"].map((item, index)=>(<p className='text-md font-light tracking-tight leading-none'>{item}</p>
-        ))}
-        <div className='start flex items-center gap-2'>
-          <div className='px-5 py-2 border-[1px] font-light text-md border-zinc-400 rounded-full uppercase'>Let's get started</div>
-          <div className='w-10 h-10 border-[1px] flex items-center justify-center font-light text-sm border-zinc-400 rounded-full'>
-            <span className='rotate-[180deg]'>
-              <FaArrowUpLong />
-            </span>
-          </div>
-        </div>
-      </div>
     </div>
   )
 }
