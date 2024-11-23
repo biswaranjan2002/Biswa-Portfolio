@@ -8,7 +8,7 @@ function About() {
   };
 
   return (
-    <div className="w-full p-20 -mt-9 bg-[url('./images/bg4.png')] bg-center bg-cover rounded-tl-3xl rounded-tr-3xl text-white">
+    <div className="w-full p-20 -mt-9 bg-[url('/images/bg4.png')] bg-center bg-cover rounded-tl-3xl rounded-tr-3xl text-white">
       <h1 className='font-["Neue Montreal"] text-[4vw] leading-[4.2vw] tracking-tight'>
         Web developers transform creativity into reality, blending code and
         design to craft interactive digital experiences. Their innovation meets
