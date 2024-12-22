@@ -22,7 +22,7 @@ function Cards() {
         <motion.div whileHover={{scale: 1.2}} transition={{duration: 0.3}} className='card w-1/2 h-full rounded-xl bg-[#13302c] py-36 px-5 pr-1'>
           <div className='flex overflow-hidden'>
             <h1 className='text-[20px]'>📧</h1>
-            <h1 className='text-[1.2vw] font-semibold'>biswaranjan4864@gmail.com</h1></div>
+            <h1 className='text-[1.2vw] mt-[2px] font-semibold'>biswaranjan4864@gmail.com</h1></div>
           <h1 className='text-[20px] font-semibold'>☎️+91 94392 03705</h1>
         </motion.div>
       </div>
